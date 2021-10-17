@@ -3,21 +3,9 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React, Hello world...
-        </a>
-      </header>
+    <div className='container mx-auto py-10'>
+      <button className='bg-green-400 rounded-lg shadow-lg text-white text-xl p-3 font-bold'>click me</button>
+      <div className='text-black text-3xl font-bold py-5'>Hello World</div>
     </div>
   );
 }
