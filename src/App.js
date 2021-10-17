@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { employeeDetail } from '../data.js'
+import { employeeDetail } from './data.js'
 
 var myArray = ['A00101', 'A06866', 'A06571', 'A07104', 'A12345'];
 

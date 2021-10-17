@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  h1 {
+    @apply text-4xl py-3 font-semibold;
+  }
+  h2 {
+    @apply text-3xl py-2 font-semibold;
+  }
+  h3 {
+    @apply text-2xl py-1 font-semibold;
+  }
+}
 
 body {
   margin: 0;
@@ -15,4 +26,21 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.drawingBox {
+  display: grid;
+  grid-template-rows: auto 18rem;
+  grid-template-columns: 1fr;
+  grid-template-areas: 
+    'photo'
+    'slot';
+}
+
+.photoBlock {
+  grid-area: photo;
+}
+
+.slotMachine {
+  grid-area: slot;
 }
