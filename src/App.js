@@ -12,7 +12,7 @@ function LuckyDraw() {
   const [ PDname, setPDname ] = useState('-')
   const [ PDid, setPDid] = useState('-')
   const [ PDsite, setPDsite ] = useState('-')
-  const [ PDimg, setPDimg ] = useState('/img/atal.jpg')
+  const [ PDimg, setPDimg ] = useState('/img/atalLogo.jpg')
 
 
   console.log(employeeDetail)
@@ -54,7 +54,7 @@ function LuckyDraw() {
     setPDname('-')
     setPDid('-')
     setPDsite('-')
-    setPDimg('/img/atal.jpg')
+    setPDimg('/img/atalLogo.jpg')
     setPrizeList([])
 
     setEmpty(false)
